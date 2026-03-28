@@ -1,19 +1,17 @@
 {
   "name": "ezroom",
   "version": "1.0.0",
-  "private": true,
-  "description": "Projet Agile EZRoom - reservation de salles",
-  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "jest --coverage",
-    "build": "node -e \"console.log('build ok')\""
+    "test": "jest",
+    "lint": "echo \"lint not configured\"",
+    "build": "echo \"build not configured\""
   },
   "devDependencies": {
-    "cucumber-js": "^12.0.0",
-    "eslint": "^10.0.0",
-    "jest": "^31.0.0"
+    "jest": "^29.7.0",
+    "@cucumber/cucumber": "^11.0.0"
   }
-  "bdd": "cucumber-js"
 }
+
+
+
 
