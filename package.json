@@ -13,7 +13,7 @@
     "cucumber-js": "^12.0.0",
     "eslint": "^10.0.0",
     "jest": "^31.0.0",
-  }
   "bdd": "cucumber-js"
+  }
 }
 
